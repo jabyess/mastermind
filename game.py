@@ -36,7 +36,7 @@ class Game:
         self.generate_colors()
 
         for i in range(10):
-            print(i)
+            print("Level: " + str(i + 1))
             if i == 9:
                 print("game over. here is the answer:")
                 print(self.chosen_colors)
